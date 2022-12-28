@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title> Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+    
+<body>
+    <h1>NUTRTIONAL FACTS</h1>
+    <div id="main-food">
+        <ul>
+        <li>
+        <select name="selectItem" class="dropdown" id="bf" onchange="bfselect();">
+            <option disabled selected>Breakfast</option>
+            <option value="idli">Idli</option>
+            <option value="dosa">Dosa</option>
+            <option value="puri">Puri</option>
+            <option value="vada">Vada</option>
+            <option value="wheatupma">wheatupma</option>
+            <option value="chapathi">Chapathi</option>
+            <option value="wheatbread">Wheatbread</option>
+            <option value="Pesarattu">Pesarattu</option>
+            <option value="Mysorebonda">Mysorebonda</option>
+        </select>
+        </li>
+            
+        <li>
+        <select name="selectItem" class="dropdown" id="lu" onchange="luselect();">
+            <option disabled selected>Lunch</option>
+            <option value="potato">Potato</option>
+            <option value="rice">rice</option>
+            <option value="brownrice">brownrice</option>
+            <option value="tomato">Tomato</option>
+            <option value="brinjal">brinjal</option>
+            <option value="mushroom">mushroom</option>
+            <option value="cabbage">cabbage</option>
+            <option value="cauliflower">cauliflower</option>
+            <option value="chicken">Chicken</option>
+            <option value="mutton">mutton</option>
+            <option value="curd">curd</option>
+            <option value="sweetpotato">sweetpotato</option>
+            <option value="carrot">carrot</option>
+            <option value="beetroot">beetroot</option>
+        </select>
+        </li>
+            
+        <li>
+        <select name="selectItem" class="dropdown" id="di" onchange="diselect();">
+            <option disabled selected>Dinner</option>
+            <option value="pulka">Pulka</option>
+            <option value="roti">Roti</option>
+        </select>
+        </li>
+        </ul>
+    </div>
+
+<script type="text/javascript" src="calculator.js"></script>
+    
+    <form>  
+    <legend>Quantity(in gms)</legend>
+    <input type="text" id="amount"><br>
+    </form>
+    <input type="button" value="Submit" id="calculate" onclick="nutrition()">
+    <input type="button" value="Reset" onclick="resetbutton()">
+    
+<!--Output of Nutrition-->
+    <div class="result"> Carbohydrates in the Product: <span id="o_carbohydrates"></span></div>
+    <div class="result">Proteins in the Product: <span id="o_proteins"></span></div>
+    <div class="result">Fats in the Product: <span id="o_fats"></span></div>
+    <div class="result">Calories in the Product: <span id="o_calories"></span></div>
+    
+</body>
+</html>

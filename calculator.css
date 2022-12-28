@@ -1,0 +1,105 @@
+/* Calculator CSS */
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-image: url('Bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    font-size:50px;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    padding-bottom: 30px;    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    
+}
+ul li
+{
+    display: inline-block;
+    color: white;
+    
+}
+.main-food, .dropdown{
+    
+    margin:15px;
+    margin-left:80px;
+    margin-right:80px;
+    
+}
+
+.dropdown{
+    padding:15px 20px;
+    color: white;
+    background-color:#2bab0d;
+    border:3px solid #dddddd;
+    cursor:pointer;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.dropdown:focus,.dropdown:hover{
+    outline:none;
+    border:5px solid #dddddd;
+}
+.dropdown option{
+    background:#2bab0d;
+}
+/*p{
+    text-align: center;
+    font-size: 30px;
+    padding:45px;
+    font-family: serif;
+    color:white;
+    font-weight: 100px;
+}*/
+legend{
+    text-align: center;
+    font-size:45px;
+    padding:20px;
+    font-family: serif;
+    color:white;
+    font-weight:400px;
+    margin-top:50px;
+}
+input[type="text"]{
+    border:solid 3px white;
+    width:200px;
+    padding:10px;
+    font-size:20px;
+    font-family: serif;
+    margin:auto;
+    
+}
+input[type="button"]{
+    padding:5px;
+    margin:10px;
+    padding:10px;
+    margin-top:20px;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    margin:20px;
+}
+.result{
+    font-family: serif;
+    color:white;
+    font-size:30px;
+    font-weight: 300px;
+    padding:5px;
+}

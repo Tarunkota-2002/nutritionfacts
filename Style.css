@@ -1,0 +1,143 @@
+.top_img
+{
+
+
+    position: absolute;
+    left: 70px;
+}
+.box
+{
+    background-color:aquamarine;
+    width:600px;
+    height:360px;
+    position:absolute; left:40px;
+    bottom:10px;
+    border-radius: 30px;
+
+}
+
+.box2
+{
+    background-color:aquamarine;
+    width:600px;
+    height:360px;
+    position:absolute; right:90px;
+    bottom:10px;
+    border-radius: 30px;
+
+}
+
+marquee
+{ 
+ font: 10px;
+    font-family:fantasy;
+    height: 350px; width:600px; text-align: center;
+}
+
+.bck_box{
+    
+    background: rgba(5, 5, 5, 0.41);
+    height: 90px; width: 900px;
+   position:absolute; top:70px; 
+    margin-left: 190px;
+    border-radius: 50px;
+    color:white;    font-size: 40px;
+    padding-top:40px;
+
+}
+
+
+a{text-decoration:none;
+
+color:white;
+}
+
+body#bg
+{
+    
+    background: url("Bg5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0;
+}
+
+.cal_box{
+    background: rgba(5, 5, 5, 0.41);
+    height: 400px; width: 500px;
+    position: relative; top:150px;
+    left:800px; text-align: center;
+    
+}
+
+  #groups{
+    height:50px; width:200px;
+    background-color: whitesmoke;
+    margin-top: 30px; 
+    margin-left: 22px;  
+      
+}
+#sub_groups{
+    height:50px; width:200px;
+    background-color: greenyellow;
+    margin-left: 22px;
+    margin-top: 30px; 
+}
+
+
+.group2
+{
+    
+  background-color: firebrick;
+  border-radius: 5px;
+  height:50px;
+  width:110px;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: sans-serif;
+  border-style:none;
+  border-width: thick;
+  margin-top: 40px;    
+}
+.group2:hover{
+  background-color:lightgreen;
+  text-align: center;
+  text-decoration-style: solid;
+      
+
+}
+.btn9{
+    color: beige;
+}
+    .btn8{
+        color:aqua
+    }    
+    
+    
+}
+.form{
+    
+    position: relative;
+}
+.textbox{
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  padding: 10px;
+  color:white;
+  border-color: powderblue;
+  border-bottom-style: double;
+  margin-top: 35px;
+  margin-right: 42px;    
+    
+}
+    
+.btn7{
+    background-color: rgba(255, 0, 0, 0.4); 
+}
+.btn99{
+    color: crimson;
+    background-color:rgba(5, 5, 5, 0.41) ;
+    text-align: center
+}
